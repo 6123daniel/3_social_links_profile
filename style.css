@@ -20,17 +20,30 @@ body {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    width: 400px;
+    width: 300px;
+    position: fixed;
+    translate:-50% -50%;
+    left: 50%;
+    top: 50%;
+}
+
+#picture {
+    clip-path: circle(50%);
+    width: 80px;
+    
 }
 
 #name {
     font-size: 20px;
+    font-weight: var(--heavy);
+    padding-bottom:10px;
+    padding-top:20px;
 }
 
 #location {
     color: var(--green);
-    font-size: 16px;
-    padding: 10px;
+    font-size: 13px;
+    font-weight: var(--medium);
 }
 
 #description {
@@ -42,6 +55,22 @@ nav div {
     background-color: var(--grey700);
     font-size: 14px;
     padding: 10px;
-    margin: 10px;
+    margin: 15px;
+    font-weight: var(--medium);
+    border-radius: 6px;
+}
 
+nav div:hover {
+    background-color: var(--green);
+    color: var(--grey800);
+    cursor: pointer;
+}
+
+a:link, a:visited {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.attribution {
+    color: var(--white);
 }
