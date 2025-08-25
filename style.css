@@ -1,0 +1,47 @@
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey700: hsl(0, 0%, 20%);
+    --grey800: hsl(0, 0%, 12%);
+    --grey900: hsl(0, 0%, 8%);
+
+    --light: 400;
+    --medium: 600;
+    --heavy: 700;
+}
+
+body {
+    background-color: var(--grey900);
+    font-family: inter;
+}
+.card {
+    background-color: var(--grey800);
+    color: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+}
+
+#name {
+    font-size: 20px;
+}
+
+#location {
+    color: var(--green);
+    font-size: 16px;
+    padding: 10px;
+}
+
+#description {
+    font-size: 14px;
+    padding: 20px;
+}
+
+nav div {
+    background-color: var(--grey700);
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px;
+
+}
