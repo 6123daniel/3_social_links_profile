@@ -58,6 +58,7 @@ nav div {
     margin: 15px;
     font-weight: var(--medium);
     border-radius: 6px;
+    transition: background-color 0.4s, color 0.4s;
 }
 
 nav div:hover {
